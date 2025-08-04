@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Starrex</title>
+</head>
+
+<body>
+    <!-- navbar and slider  -->
+    <div class="container-fluid">
+
+        <!-- Navbar -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container-fluid d-flex justify-content-between align-items-center">
+
+                    <!-- Left side: Logo and Brand -->
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img src="New Images/logo.svg" alt="Logo" width="70" height="70" class="d-inline-block">
+                        <h3 class="ms-3 mb-0 ">Starrex</h3>
+                    </a>
+
+                    <!-- Right side: Nav links -->
+                    <ul class="navbar-nav ms-auto flex-row fw-600">
+                        <li class="nav-item me-3">
+                            <a class="nav-link active text-decoration-underline" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link " href="#">HR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </header>
+
+        <!-- slider  -->
+        <div class="row gx-3 container-fluid" style="margin-left: -1%;">
+            <!-- slider imagee -->
+            <div class="col-lg-9 col-md-12 col-sm-12 col-12">
+                <div id="carouselExampleCaptions" class="carousel carousel-fade slide" data-bs-ride="carousel"
+                    data-bs-interval="3000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="New Images/slider images/1.jpg" class="d-block slider-image" alt="...">
+                            <div class="carousel-caption d-none d-md-block slider_caption">
+                                <h3 class="mt-lg-3">First slide label</h3>
+                                <!-- <p>Some representative placeholder content for the first slide.</p> -->
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="New Images/slider images/2.jpg" class="d-block slider-image" alt="...">
+                            <div class="carousel-caption d-none d-md-block slider_caption">
+                                <h3 class="mt-lg-3">Second slide label</h3>
+                                <!-- <p>Some representative placeholder content for the second slide.</p> -->
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="New Images/slider images/3.jpg" class="d-block slider-image" alt="...">
+                            <div class="carousel-caption d-none d-md-block slider_caption">
+                                <h3 class="mt-lg-3">Third slide label</h3>
+                                <!-- <p>Some representative placeholder content for the third slide.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Left Button with << -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="fs-1 text-white px-2" aria-hidden="true">&laquo;</span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <!-- Right Button with >> -->
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="fs-1 text-white px-2" aria-hidden="true">&raquo;</span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- welcome  -->
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                <!-- ------------- -->
+                <div class="welcome-div-txt">
+                    <h2 class="fw-bold">Welcome, Debbie</h2>
+                    <p class="mt-2 welcome-div-txt1" style="color: #336699;">Most Frequently Visited Links</p>
+                </div>
+                <div id="link-buttons-wrapper">
+                    <!-- Handbook -->
+                    <div class="welcome-div-img handbook-button-div d-inline-flex align-items-center mx-md-0"> <a
+                            href="#" class="text-decoration-none w-100">
+                            <button type="button"
+                                class="d-flex align-items-center border-0 bg-transparent px-3 py-1  text-start">
+                                <img src="Image/icon/icon slider/book-solid.svg" alt="Book Icon" class="me-2 book-img"
+                                    style="width: 21px; height: auto;">
+                                <span class="text-white fs-6 fs-md-5 hand-text">Handbook</span>
+                            </button>
+                        </a>
+                    </div>
+
+                    <!-- Who To Contact -->
+                    <div class="handbook-button-div d-inline-flex align-items-center mx-md-0"> <a href="#"
+                            class="text-decoration-none w-100">
+                            <button type="button"
+                                class="d-flex align-items-center border-0 bg-transparent px-3 py-1 text-start">
+                                <img src="Image/icon/icon slider/address-book-solid.svg" alt="Contact Icon"
+                                    class="book-img me-2" style="width: 22px; height: auto;">
+                                <span class="text-white fs-6 fs-md-5 hand-text">Who To Contact</span>
+                            </button>
+                        </a> </div>
+
+                    <!-- Whistleblower -->
+                    <div class="handbook-button-div d-inline-flex align-items-center mx-md-0"> <a href="#"
+                            class="text-decoration-none w-100">
+                            <button type="button"
+                                class="d-flex align-items-center border-0 bg-transparent px-3 py-1text-start">
+                                <img src="Image/icon/icon slider/id-badge-solid.svg" alt="Whistleblower Icon"
+                                    class="me-2 book-img" style="width: 18px; height: auto;">
+                                <span class="text-white fs-6 fs-md-5 hand-text">Whistleblower</span>
+                            </button>
+                        </a> </div>
+
+                    <!-- Forms And Policies -->
+                    <div class="handbook-button-div d-inline-flex align-items-center mx-md-0"> <a href="#"
+                            class="text-decoration-none w-100">
+                            <button type="button"
+                                class="d-flex align-items-center border-0 bg-transparent px-3 py-1 text-start">
+                                <img src="Image/icon/icon slider/id-badge-solid.svg" alt="Forms Icon"
+                                    class="me-2 book-img" style="width: 18px; height: auto;">
+                                <span class="text-white fs-6 fs-md-5 hand-text">Forms And Policies</span>
+                            </button>
+                        </a> </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- announcement  -->
+    <div class="div-width-adjets div-width-adjets1024">
+        <!-- announcement  -->
+        <div class="container-fluid px-2 mt-2">
+            <div class="row announcement-border d-flex align-items-center gx-0">
+                <!-- Left Label -->
+                <div class="col-12 col-sm-12 col-md-3 col-lg-2 text-center text-md-start announcement-hide">
+                    <div class="announcement py-2">Announcement</div>
+                </div>
+
+                <!-- Right Scrolling Section -->
+                <div class="col-12 col-sm-12 col-md-9 col-lg-10">
+                    <div class="row gx-0">
+                        <!-- First Marquee -->
+                        <div class="col-12 col-md-12  pe-md-3 pe-lg-3 ps-3 pe-lg-3" style="height: 40px; ">
+                            <marquee class="h-100 d-flex align-items-center">
+                                <span style="color: #336699; font-size: 18px; font-weight: 500;">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <b><big> | </big> </b>
+                                    Lorem
+                                    ipsum dolor sit amet consectetur adipisicing elit.
+                                </span>
+                            </marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- document section  -->
+    <div class="container-fluid px-2 mt-2  ">
+        <div class="row gx-2">
+
+            <!-- Important Document Section -->
+            <div class="doc-col col-lg-3 col-md-12 col-sm-12 col-12 mb-4">
+                <!-- Header -->
+                <div class="div-width-adjets div-width-adjets10">
+                    <div class="doc-div1 d-flex align-items-center mb-2">
+                        <img src="New Images/document icon/document.svg" style="height: 30px; width: 30px;"
+                            alt="Important Documents" class="ms-2">
+                        <span class="text-white ms-2" style="font-size: 20px;">Important Document</span>
+                    </div>
+                </div>
+
+                <!-- Content -->
+                <div class="div-width-adjets10">
+                    <div class="container doc-contant-div py-3 doc-hit ">
+                        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4">
+                            <!-- Repeat this block for all 9 buttons -->
+                            <div class="col d-flex justify-content-center align-items-center mt-1440">
+                                <button class="box-button">
+                                    <div class="btn-shape">
+                                        <img src="New Images/document icon/contant-icon/shield-solid.svg" alt="Protect"
+                                            class="img-center" height="55%" width="55%">
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="col d-flex justify-content-center align-items-center mt-1440">
+                                <button class="box-button">
+                                    <div class="btn-shape">
+                                        <img src="New Images/document icon/contant-icon/book-solid.svg" alt="Book"
+                                            class="img-center" height="55%" width="55%">
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="col d-flex justify-content-center align-items-center mt-1440">
+                                <button class="box-button">
+                                    <div class="btn-shape">
+                                        <img src="New Images/document icon/contant-icon/credit-card-solid.svg"
+                                            alt="Card" class="img-center" height="55%" width="55%">
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="col d-flex justify-content-center align-items-center mt-1440">
+                                <button class="box-button">
+                                    <div class="btn-shape">
+                                        <img src="New Images/document icon/contant-icon/building-columns-solid.svg"
+                                            alt="Bank" class="img-center" height="55%" width="55%">
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="col d-flex justify-content-center align-items-center mt-1440">
+                                <button class="box-button">
+                                    <div class="btn-shape">
+                                        <img src="New Images/document icon/contant-icon/user-lock-solid.svg"
+                                            alt="User Lock" class="img-center" height="55%" width="55%">
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="col d-flex justify-content-center align-items-center mt-1440">
+                                <button class="box-button">
+                                    <div class="btn-shape">
+                                        <img src="New Images/document icon/contant-icon/lock-solid.svg" alt="Lock"
+                                            class="img-center" height="55%" width="55%">
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="col d-flex justify-content-center align-items-center mt-1440">
+                                <button class="box-button">
+                                    <div class="btn-shape">
+                                        <img src="New Images/document icon/contant-icon/shield-solid.svg" alt="Shield"
+                                            class="img-center" height="55%" width="55%">
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="col d-flex justify-content-center align-items-center mt-1440">
+                                <button class="box-button">
+                                    <div class="btn-shape">
+                                        <img src="New Images/document icon/contant-icon/book-solid.svg" alt="Book"
+                                            class="img-center" height="55%" width="55%">
+                                    </div>
+                                </button>
+                            </div>
+
+                            <div class="col d-flex justify-content-center align-items-center mt-1440">
+                                <button class="box-button">
+                                    <div class="btn-shape">
+                                        <img src="New Images/document icon/contant-icon/credit-card-solid.svg"
+                                            alt="Card" class="img-center" height="55%" width="55%">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Staff Directory Section -->
+            <div class="doc-col col-lg-3 col-md-12 col-sm-12 col-12 mr-top-720 mt-sd">
+                <!-- Header -->
+                <div class="doc-div1 doc-div-320  d-flex align-items-center mb-2 sds div-width-adjets">
+                    <img src="New Images/document icon/staff.svg" style="height: 30px; width: 30px;"
+                        alt="Staff Directory" class="ms-2">
+                    <span class="text-white ms-2" style="font-size: 20px;">Staff Directory</span>
+                </div>
+
+                <!-- Content -->
+                <div class="doc-contant-div p-3 div-width-adjets doc-contant-div11">
+                    <div class="container-fluid">
+                        <div class="search-wrapper mb-3">
+                            <input type="text" class="form-control search-input" placeholder="Search Directory">
+                            <img src="New Images/document icon/staff drectory/magnifying-glass-solid.svg"
+                                class="search-icon" alt="Search">
+                        </div>
+
+                        <!-- Profile Card 1 -->
+                        <div class="card-wrapper ">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="person-img-div flex-shrink-0">
+                                        <img src="New Images/document icon/staff drectory/Daco_5911320.png"
+                                            alt="Garrett Clayton">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-details w-100">
+                                        <h5 class="icon-text">P. Garrett Clayton</h5>
+                                        <p class="icon-text"><img
+                                                src="New Images/document icon/staff drectory/suitcase-solid.svg"
+                                                alt="Position">
+                                            Director</p>
+                                        <p class="icon-text"><img
+                                                src="New Images/document icon/staff drectory/envelope-solid.svg"
+                                                alt="Email"> <a
+                                                href="mailto:garrett@starrex.com">garrett@starrex.com</a></p>
+                                        <p class="icon-text"><img
+                                                src="New Images/document icon/staff drectory/phone-solid.svg"
+                                                alt="Phone"> 524-524-1693</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Profile Card 2 -->
+                        <div class="card-wrapper alt-card">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="person-img-div1 flex-shrink-0">
+                                        <img src="New Images/document icon/staff drectory/Daco_5151864.png"
+                                            alt="Debbie Merritt">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-details w-100">
+                                        <h5 class="icon-text">Dr. Debbie Merritt</h5>
+                                        <p class="icon-text"><img
+                                                src="New Images/document icon/staff drectory/suitcase-solid.svg"
+                                                alt="Position">
+                                            Director</p>
+                                        <p class="icon-text"><img
+                                                src="New Images/document icon/staff drectory/envelope-solid.svg"
+                                                alt="Email"> <a href="mailto:debbie@starrex.com">debbie@starrex.com</a>
+                                        </p>
+                                        <p class="icon-text"><img
+                                                src="New Images/document icon/staff drectory/phone-solid.svg"
+                                                alt="Phone"> 524-524-1693</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- profile card 3  -->
+                        <div class="card-wrapper alt-card">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="person-img-div1 flex-shrink-0">
+                                        <img src="New Images/document icon/staff drectory/Daco_5151864.png"
+                                            alt="Debbie Merritt">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-details w-100">
+                                        <h5 class="icon-text">Dr. Debbie Merritt</h5>
+                                        <p class="icon-text"><img
+                                                src="New Images/document icon/staff drectory/suitcase-solid.svg"
+                                                alt="Position">
+                                            Director</p>
+                                        <p class="icon-text"><img
+                                                src="New Images/document icon/staff drectory/envelope-solid.svg"
+                                                alt="Email"> <a href="mailto:debbie@starrex.com">debbie@starrex.com</a>
+                                        </p>
+                                        <p class="icon-text"><img
+                                                src="New Images/document icon/staff drectory/phone-solid.svg"
+                                                alt="Phone"> 524-524-1693</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Links Section -->
+            <div class="doc-col1 col-lg-6 col-md-12 col-sm-12 col-12 mb-4 mar-top-nag-ql mar-top-nag">
+                <!-- Header -->
+                <div class="doc-div1 doc-div-320-1 d-flex align-items-center mb-2 sds1 div-width-adjets">
+                    <img src="New Images/document icon/link.svg" style="height: 30px; width: 30px;" alt="Quick Links"
+                        class="ms-2">
+                    <span class="text-white ms-2" style="font-size: 20px;">Quick Links</span>
+                </div>
+
+                <!-- Content -->
+                <div class="doc-contant-div container  doc-contant-div12">
+                    <div class="row gx-3 gy-3 d-flex align-content-center justify-content-center mt-2">
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <button class="box-button12">
+                                <div class="icon-text-wrap d-flex justify-content-start">
+                                    <div
+                                        class="icon-circle me-2 ms-2 d-flex justify-content-center align-content-center mt-4">
+                                        $</div><span
+                                        class="btn-label fs-5 d-flex justify-content-center align-content-center mt-4">Expense
+                                        Claims</span>
+                                </div>
+                                <div class="button-footer"></div>
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <button class="box-button12">
+                                <div class="icon-text-wrap d-flex justify-content-start">
+                                    <div
+                                        class="icon-circle me-2 ms-2 d-flex justify-content-center align-content-center mt-4">
+                                        $</div><span
+                                        class="btn-label fs-5 d-flex justify-content-center align-content-center mt-4">View
+                                        Paycheck</span>
+                                </div>
+                                <div class="button-footer"></div>
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <button class="box-button12">
+                                <div class="icon-text-wrap d-flex justify-content-start">
+                                    <div
+                                        class="icon-circle me-2 ms-2 d-flex justify-content-center align-content-center mt-4">
+                                        $</div><span
+                                        class="btn-label fs-5 d-flex justify-content-center align-content-center mt-4">Order
+                                        Business Cards</span>
+                                </div>
+                                <div class="button-footer"></div>
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <button class="box-button12">
+                                <div class="icon-text-wrap d-flex justify-content-start">
+                                    <div
+                                        class="icon-circle me-2 ms-2 d-flex justify-content-center align-content-center mt-4">
+                                        $</div><span
+                                        class="btn-label fs-5 d-flex justify-content-center align-content-center mt-4">Request
+                                        PTO</span>
+                                </div>
+                                <div class="button-footer"></div>
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <button class="box-button12">
+                                <div class="icon-text-wrap d-flex justify-content-start">
+                                    <div
+                                        class="icon-circle me-2  ms-2d-flex justify-content-center align-content-center mt-4">
+                                        $</div><span
+                                        class="btn-label fs-5 d-flex justify-content-center align-content-center mt-4">Employee
+                                        Benefits</span>
+                                </div>
+                                <div class="button-footer"></div>
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <button class="box-button12">
+                                <div class="icon-text-wrap d-flex justify-content-start">
+                                    <div
+                                        class="icon-circle me-2 ms-2 d-flex justify-content-center align-content-center mt-4">
+                                        $</div><span
+                                        class="btn-label fs-5 d-flex justify-content-center align-content-center mt-4">IT
+                                        Support</span>
+                                </div>
+                                <div class="button-footer"></div>
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <button class="box-button12">
+                                <div class="icon-text-wrap d-flex justify-content-start">
+                                    <div
+                                        class="icon-circle me-2 ms-2 d-flex justify-content-center align-content-center mt-4">
+                                        $</div><span
+                                        class="btn-label fs-5 d-flex justify-content-center align-content-center mt-4">RINGCENTRAL</span>
+                                </div>
+                                <div class="button-footer"></div>
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <button class="box-button12">
+                                <div class="icon-text-wrap d-flex justify-content-start">
+                                    <div
+                                        class="icon-circle me-2 ms-2 d-flex justify-content-center align-content-center mt-4">
+                                        $</div><span
+                                        class="btn-label fs-5 d-flex justify-content-center align-content-center mt-4">Expense
+                                        Claims</span>
+                                </div>
+                                <div class="button-footer"></div>
+                            </button>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <button class="box-button12">
+                                <div class="icon-text-wrap d-flex justify-content-start">
+                                    <div
+                                        class="icon-circle me-2 ms-2 d-flex justify-content-center align-content-center mt-4">
+                                        $</div><span
+                                        class="btn-label fs-5 d-flex justify-content-center align-content-center mt-4">
+                                        Expense Claims</span>
+                                </div>
+                                <div class="button-footer"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- News Section -->
+    <div class="container-fluid px-2" style="margin-top: -1%;">
+        <div class="row gx-2">
+
+            <!-- News Section -->
+            <div class="doc-col1 col-lg-6 col-md-12 col-sm-12 col-12 mar-top-news">
+                <!-- Header -->
+                <div class="doc-div1 d-flex align-items-center mb-2 sds1 div-width-adjets">
+                    <img src="New Images/news image/icon/newspaper-solid.svg" style="height: 30px; width: 30px;"
+                        alt="News" class="ms-2">
+                    <span class="text-white ms-2"><big>News</big></span>
+                </div>
+
+                <!-- Content -->
+                <div class="doc-contant-div container mb-5 doc-contant-div-sm news-contant-div-1024">
+                    <div class="news-padding-sm d-flex row justify-content-center">
+                        <div
+                            class="news-image-div row justify-content-center col-12 col-sm-12 col-md-4 col-lg-3 position-relative">
+                            <img src="New Images/news image/news/erica-steeves-5D4s0Asiv_Y-unsplash.jpg" height="90%"
+                                alt="News" class="">
+                        </div>
+                        <div
+                            class="news-content-div col-12 col-sm-12 col-md-7 col-lg-8 bg-white mt-lg-4 mt-md-4 mt-sm-0  mt-0 ">
+                            <p style="color: #336699;" class="fs-4 ms-2">Lorem, ipsum dolor sit amet consectetur Lorem,
+                                ipsum
+                                dolor sit amet consectetur</p>
+                            <p class="fs-6 ms-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis saepe,
+                                vitae excepturi dolorum odit, est distinctio, unde minus eum iure adipisicing elit.
+                                Debitis saepe, vitae excepturi dolorum odit, est distinctio, unde minus eum iure</p>
+                            <p>
+                            <div class="border border-black d-inline-block ms-2 news-line-sm"></div>
+                            <span class="ms-2 news-date-size">April 25 , 2025 / 03:30 PM
+                                IST</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex news-padding-sm row justify-content-center">
+                        <div
+                            class="news-image-div row justify-content-center col-12 col-sm-12 col-md-4 col-lg-3 position-relative">
+                            <img src="New Images/news image/news/ux-store-ukeUH3KbMWU-unsplash.jpg" height="90%"
+                                alt="News" class="">
+                        </div>
+                        <div class="news-content-div col-12 col-sm-12 col-md-7 col-lg-8 bg-white mt-lg-4 mt-md-4">
+                            <p style="color: #336699;" class="fs-4 ms-2">Lorem, ipsum dolor sit amet consectetur Lorem,
+                                ipsum
+                                dolor sit amet consectetur</p>
+                            <p class="fs-6 ms-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis saepe,
+                                vitae excepturi dolorum odit, est distinctio, unde minus eum iure adipisicing elit.
+                                Debitis saepe, vitae excepturi dolorum odit, est distinctio, unde minus eum iure</p>
+                            <p>
+                            <div class="border border-black d-inline-block ms-2 news-line-sm"></div>
+                            <span class="ms-2 news-date-size">April 25 , 2025 / 03:30 PM
+                                IST</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex news-padding-sm row justify-content-center mb-lg-2 ">
+                        <div
+                            class="news-image-div row justify-content-center col-12 col-sm-12 col-md-4 col-lg-3 position-relative">
+                            <img src="New Images/news image/news/ux-store-ukeUH3KbMWU-unsplash.jpg" height="90%"
+                                alt="News" class="">
+                        </div>
+                        <div class="news-content-div col-12 col-sm-12 col-md-7 col-lg-8 bg-white mt-lg-4 mt-md-4">
+                            <p style="color: #336699;" class="fs-4 ms-2">Lorem, ipsum dolor sit amet consectetur Lorem,
+                                ipsum
+                                dolor sit amet consectetur</p>
+                            <p class="fs-6 ms-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis saepe,
+                                vitae excepturi dolorum odit, est distinctio, unde minus eum iure adipisicing elit.
+                                Debitis saepe, vitae excepturi dolorum odit, est distinctio, unde minus eum iure</p>
+                            <p>
+                            <div class="border border-black d-inline-block ms-2 news-line-sm"></div>
+                            <span class="ms-2 news-date-size">April 25 , 2025 / 03:30 PM
+                                IST</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Company Calendar Section -->
+            <div class="doc-col col-lg-3 col-md-12 col-sm-12 col-12 margin-top-negative1">
+                <!-- Header -->
+                <div class="doc-div1 mb-2 div-width-adjets cal-heading-space p-2">
+                    <img src="New Images/news image/icon/calendar-days-solid.svg" style="height: 30px; width: 30px;"
+                        alt="Calendar" class="ms-2">
+                    <span class="text-white ms-2"><big>Company Calendar</big></span>
+                </div>
+
+                <!-- Content -->
+                <div class="container doc-contant-div doc-contant-div-sm  ">
+                    <div class="cal-div mt-md-3 cal-1024mr" style="height: auto;">
+                        <div class="row gx-2 container">
+                            <div class="col-md-4 cal-mr-1024" style="height: 150px;">
+                                <div class="cal-div-wd" style=" border: 2px solid #336699;">
+                                    <img src="New Images/calendar/calendar-solid.svg" height="70%" class="img-ml mt-3"
+                                        width="70%" alt="">
+                                </div>
+                                <div class="cal-div-wd" style="height: 50px; background-color: #336699;">
+                                    <span style="color: white; font-size: 26px;" class=" date-margin"> Apr '22</span>
+                                </div>
+                            </div>
+                            <div class="col-md-8 ml-1024">
+                                <h4 style="color: #336699;" class="mt-4 fs-4">QBR - FY21Q3</h4>
+                                <h6 class="fs-5">Location : TBC</h6>
+                                <h6 class="fs-6">Time : 03:30 A.M. - 07:30 P.M.</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="height: 1px; background-color: #6c6c6c86; width: 100%; margin: 0 0; box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.2);"
+                        class="mt-sm-3 mt-lg-5"></div>
+
+                    <div class="cal-div mt-3" style="height: auto;">
+                        <div class="row gx-2 mt-lg-5 container">
+                            <div class="col-md-4 cal-mr-1024" style="height: 150px;">
+                                <div class="cal-div-wd" style="border: 2px solid #336699;">
+                                    <img src="New Images/calendar/calendar-solid.svg" height="70%" class="img-ml mt-3"
+                                        width="70%" alt="">
+                                </div>
+                                <div class="cal-div-wd" style="height: 50px; background-color: #336699;">
+                                    <span style="color: white; font-size: 26px;" class="date-margin"> Apr '22</span>
+                                </div>
+                            </div>
+                            <div class="col-md-8 ml-1024">
+                                <h4 style="color: #336699;" class="mt-4 fs-4">QBR - FY21Q3</h4>
+                                <h6 class="fs-5">Location : TBC</h6>
+                                <h6 class="fs-6">Time : 03:30 A.M. - 07:30 P.M.</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="height: 1px; background-color: #6c6c6c86; width: 100%; margin: 0 0; box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.2);"
+                        class="mt-sm-3 mt-lg-5"></div>
+
+                    <div class="cal-div mt-3">
+                        <div class="row gx-2 mt-lg-5 container">
+                            <div class="col-md-4 cal-mr-1024" style="height: 150px;">
+                                <div class="cal-div-wd" style="border: 2px solid #336699;">
+                                    <img src="New Images/calendar/calendar-solid.svg" height="70%" class="img-ml mt-3"
+                                        width="70%" alt="">
+                                </div>
+                                <div class="cal-div-wd" style="height: 50px; background-color: #336699;">
+                                    <span style="color: white; font-size: 26px;" class="date-margin"> Apr '22</span>
+                                </div>
+                            </div>
+                            <div class="col-md-8 ml-1024">
+                                <h4 style="color: #336699;" class="mt-4 fs-4">QBR - FY21Q3</h4>
+                                <h6 class="fs-5">Location : TBC</h6>
+                                <h6 class="fs-6">Time : 03:30 A.M. - 07:30 P.M.</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Company Holiday Section -->
+            <div class="doc-col margin-top-negative col-lg-3 col-md-12 col-sm-12 col-12">
+                <!-- Header -->
+                <div class="doc-div1 d-flex align-items-center mb-2 nws2 div-width-adjets cal-heading-space1">
+
+                    <img src="New Images/news image/icon/calendar-xmark-solid.svg" style="height: 30px; width: 30px;"
+                        alt="Holiday" class="ms-2">
+                    <span class="text-white ms-2"><big>Company Holiday</big></span>
+                </div>
+
+                <!-- Content -->
+                <div class="doc-contant-div container py-1 doc-contant-div-sm1">
+                    <div class="container-fluid px-0">
+                        <div class="row mt-5 holiday-div gx-2">
+                            <div class="col-3 d-flex justify-content-center">
+                                <div class="round-cal">
+                                    <img src="New Images/holiday icon/calendar-solid.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7 holiday-text">
+                                <h3 style="color: #336699;" class="fs-4">Christmas</h3>
+                                <h4>25 Dec '22</h4>
+                            </div>
+                            <div class="col-2 holiday-day text-start">Thu</div>
+                        </div>
+
+                        <div class="row mt-5 holiday-div gx-2" style="background-color: #f3f3f3;">
+                            <div class="col-3 d-flex justify-content-center">
+                                <div class="round-cal">
+                                    <img src="New Images/holiday icon/calendar-solid (1).svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7 holiday-text">
+                                <h3 style="color: #336699;"class="fs-4">New Year</h3>
+                                <h4>01 Jan '23</h4>
+                            </div>
+                            <div class="col-2 holiday-day text-start">Mon</div>
+                        </div>
+
+                        <div class="row mt-5 holiday-div gx-2">
+                            <div class="col-3 d-flex justify-content-center">
+                                <div class="round-cal">
+                                    <img src="New Images/holiday icon/calendar-solid.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7 holiday-text">
+                                <h3 style="color: #336699;"class="fs-4">Independence Day</h3>
+                                <h4>15 Aug '23</h4>
+                            </div>
+                            <div class="col-2 holiday-day text-start">Tue</div>
+                        </div>
+
+                        <div class="row mt-5 mb-5 holiday-div gx-2 " style="background-color: #f3f3f3;">
+                            <div class="col-3 d-flex justify-content-center">
+                                <div class="round-cal">
+                                    <img src="New Images/holiday icon/calendar-solid (1).svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-7 holiday-text">
+                                <h3 style="color: #336699;"class="fs-4">Republic Day</h3>
+                                <h4>26 Jan '23</h4>
+                            </div>
+                            <div class="col-2 holiday-day text-start">Fri</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js">
+
+    </script>
+
+
+</body>
+
+</html>
